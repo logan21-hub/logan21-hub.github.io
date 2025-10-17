@@ -5,7 +5,7 @@ body, header, nav, main, footer, h1, div, img {
 }
 
 body {
-    background-color: #333333;
+    background-color: #000;
 }
 
 img {
@@ -29,7 +29,8 @@ img {
 
 header {
     width: 25%;
-    float:left
+    float:left;
+    background-color: gray;
 }
 
 header h1 {
@@ -51,6 +52,8 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: 1.20em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold
 }
 
 nav li a {
