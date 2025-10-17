@@ -37,7 +37,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 1.20em
+    font-size: 1.20em;
 }
 
 nav li a {
@@ -56,9 +56,7 @@ main{
     color: #ff9933;
 }
 
-#mantis {
-    color:#ff9933;
-}
+h2
 
 footer p {
     font-size: 0.75em;
