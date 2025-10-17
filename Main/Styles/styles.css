@@ -56,7 +56,9 @@ main{
     color: #ff9933;
 }
 
-h2
+h2 {
+    color: #00cc00;
+}
 
 footer p {
     font-size: 0.75em;
