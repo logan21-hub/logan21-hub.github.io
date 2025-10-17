@@ -28,9 +28,19 @@ img {
 }
 
 header {
-    width: 25%;
-    float:left;
-    background-color: gray;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    height:190px;
+    background-color: black;
+}
+
+header img {
+    margin: 0 auto;
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 header h1 {
