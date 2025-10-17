@@ -69,6 +69,11 @@ main{
     color: #ff9933;
 }
 
+main h1 {
+    color: #fff;
+    text-decoration: underline;
+}
+
 h2 {
     color: #00cc00;
 }
