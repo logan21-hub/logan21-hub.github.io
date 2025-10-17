@@ -48,9 +48,8 @@ header h1 {
 }
 
 nav {
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
 nav ul {
