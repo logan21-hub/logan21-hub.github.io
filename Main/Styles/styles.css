@@ -15,11 +15,11 @@ img {
 
 .tribe-img {
     width: 100%;
-    max-width: 300px;
-    height: 200px;
+    max-width: 600px;
+    height: 300px;
     object-fit: cover; 
     display: block;
-    margin: 1em auto;
+    margin: 1em 0;
 }
 
 .half-size {
@@ -30,6 +30,10 @@ img {
 header {
     width: 25%;
     float:left
+}
+
+header h1 {
+    margin-left: 50px;
 }
 
 nav {
