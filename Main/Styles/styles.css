@@ -31,7 +31,7 @@ header {
     position:-webkit-sticky;
     position: sticky;
     top: 0;
-    height:190px;
+    height:180px;
     background-color: black;
 }
 
@@ -64,10 +64,13 @@ nav li {
     border-top: 1px solid #fff;
 }
 
+nav li:first-child{
+    border-top: none;
+}
+
 nav li a {
     display: block;
     color: #33ccff;
-    text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
