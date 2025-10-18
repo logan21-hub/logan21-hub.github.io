@@ -75,6 +75,14 @@ nav li a {
     text-decoration: none;
 }
 
+.mobile {
+    display:block;
+}
+
+.tablet-desktop {
+    display:none;
+}
+
 main{
     clear: left;
     background-color: #000;
@@ -107,4 +115,20 @@ footer p {
 footer p a {
     color:#fff;
     text-decoration: none;
+}
+
+@media screen and (min-width: 630px) {
+.tablet-desktop {
+    display: block;
+}
+
+.mobile {
+    display:none;
+}
+
+header {
+    position:static;
+    padding-bottom: 2%;
+}
+
 }
