@@ -255,4 +255,20 @@ footer p a {
     nav li a {
         padding: 0.1em 0.75em;
     }
+
+    form label,
+    form input,
+    form textarea,
+    form button {
+        display: block;
+        width: 100%;
+    }
+    
+    form input, form textarea {
+        margin-bottom: 1em;
+    }
+    
+    form button {
+        margin-top: 0.5em;
+    }
 }
