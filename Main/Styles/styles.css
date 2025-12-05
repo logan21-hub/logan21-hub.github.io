@@ -263,7 +263,7 @@ footer p a {
 
     form label, form input, form textarea, form button {
         display: block;
-        width: 100;
+        width: 100%;
     }
     
     form input, form textarea {
@@ -273,4 +273,42 @@ footer p a {
     form button {
         margin-top: 0.5em;
     }
+
+    table {
+    width: 100%; 
+    font-size: 1em; 
+    border: 1px solid #4b4b57;
+  }
+
+  thead {
+    display: none; 
+  }
+
+  tbody tr {
+    display: block; 
+    margin-bottom: 1em;
+    background: #141418; 
+    border: 1px solid #4b4b57;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(120, 120, 220, 0.2);
+    padding: 0.5em;
+  }
+
+  tbody td {
+    display: block;
+    text-align: left; 
+    padding: 0.5em;
+    position: relative;
+    border: none;
+    color: #ff9933;
+  }
+
+  
+  tbody td::before {
+    content: attr(data-label); 
+    font-weight: bold;
+    color: #00cc00; 
+    display: block;
+    margin-bottom: 0.25em;
+  }
 }
