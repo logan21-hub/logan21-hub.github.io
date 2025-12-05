@@ -198,7 +198,7 @@ footer p a {
 
 #contribution-form input,
 #contribution-form textarea {
-    width: 100%;
+    width: 90%;
     padding: 0.5em;
     background-color: #222;
     color: #ff9933;
@@ -263,7 +263,7 @@ footer p a {
 
     form label, form input, form textarea, form button {
         display: block;
-        width: 90%;
+        width: 100;
     }
     
     form input, form textarea {
