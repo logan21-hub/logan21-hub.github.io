@@ -62,9 +62,9 @@ header {
 
 header img {
     margin: 0 auto;
-    width: 35%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
     display: block;
 }
 
