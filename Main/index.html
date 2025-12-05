@@ -15,10 +15,10 @@
 <body>
     <div id="container">
 
-        <header>
+<header>
             <a href="index.html"><img src="images/kindpng_5860511.png" alt="Hollow Knight game banner"></a>
-        </header>
-        <nav>
+</header>
+<nav>
             <ul>
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="Hallownest.html">Hallownest</a></li> 
@@ -26,13 +26,13 @@
                 <li><a href="Adjacent Tribes.html">Adjacent Tribes</a></li> 
                 <li><a href="Significant Characters.html">Significant Characters</a></li> 
             </ul>
-        </nav>
+</nav>
 
-        <div id="hero">
+    <div id="hero">
             <img src="images/HKHeroImage.jpg" alt="The Knight wielding their nail and walking">
-        </div>
+    </div>
 
-        <main>
+<main>
             <div class="mobile">
                 <P>Welcome to my website, which will detail the lore of the award winning video game Hollow Knight.</P>
                 <p></p>This website will detail the story of the game, the story leading up to the game, important characters, and important factions within the world.
@@ -60,9 +60,25 @@
                     <dd>This page talks about the various organizations and groups that existed independent of the kingdom of Hallownest.</dd>
                 </dl>
 
-             </div>    
+             </div>
+             
+    <section id="lore-form">
+        <h2>Submit Your Hollow Knight Lore Theory</h2>
+        <form id="contribution-form" action="#" method="post">
+            <label for="username">Name / Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" required>
 
-        </main>
+            <label for="theory-title">Theory Title:</label>
+            <input type="text" id="theory-title" name="theory-title" placeholder="Title of your theory" required>
+
+            <label for="theory-text">Your Theory:</label>
+            <textarea id="theory-text" name="theory-text" placeholder="Write your theory here..." rows="6" required></textarea>
+
+            <button type="submit">Submit Theory</button>
+        </form>
+    </section>
+
+</main>
 
 
         <footer>
